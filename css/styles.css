@@ -1,0 +1,219 @@
+:root {
+  --main-text-color: rgba(33, 33, 33, 1);
+  --secondary-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+}
+
+/* font-family: 'Raleway', sans-serif; */
+
+body {
+  color: var(--main-text-color);
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+body li {
+  list-style: none;
+}
+
+/* Header */
+.header {
+  background: #ffffff;
+}
+
+.header .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.header-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.header a:hover,
+.header a:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: var(--accent-color);
+  cursor: pointer;
+}
+
+/* benefits */
+.benefits {
+  background: #f5f5f5;
+}
+
+.benefits p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.benefits h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* What we do */
+
+.work-example h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+}
+/* Team */
+
+.team {
+  background: rgba(245, 244, 250, 1);
+}
+
+.team li {
+  background: #ffffff;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+.footer {
+  background: rgba(47, 48, 58, 1);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 1);
+}
+
+.address-contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio */
+
+.filter a {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--main-text-color);
+  background: #f5f4fa;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+
+.filter-examples h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.filter-examples p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
